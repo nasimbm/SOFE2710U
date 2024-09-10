@@ -92,7 +92,7 @@ public class OOPDemo1 {
         Employee manager = new Manager("Alice", 1, 80000, 10000);
         Employee developer = new Developer("Bob", 2, 70000, "Java");
 
-        // Demonstrating Polymorphism
+        // Demonstrating inheritance
         System.out.println("Manager's salary: $" + manager.calculateSalary());
         System.out.println("Developer's salary: $" + developer.calculateSalary());
 
@@ -103,7 +103,7 @@ public class OOPDemo1 {
         manager.setBaseSalary(85000); // Salary updated
         manager.setBaseSalary(-1000); // Invalid salary, not updated
 
-        // Demonstrating Inheritance
+        // Demonstrating Polymorphism
         ((Manager) manager).assignProject("Project A");
         ((Manager) manager).assignProject("Project B", "Team X");
 
