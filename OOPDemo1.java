@@ -92,7 +92,7 @@ public class OOPDemo1 {
         Employee manager = new Manager("Alice", 1, 80000, 10000);
         Employee developer = new Developer("Bob", 2, 70000, "Java");
 
-        // Demonstrating inheritance
+        // Demonstrating polymorphism
         System.out.println("Manager's salary: $" + manager.calculateSalary());
         System.out.println("Developer's salary: $" + developer.calculateSalary());
 
