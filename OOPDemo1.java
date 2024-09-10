@@ -1,4 +1,4 @@
-// Abstract class demonstrating Abstraction
+// Abstract class demonstrating Abstraction. test.
 abstract class Employee {
     // Encapsulated fields
     private String name;
